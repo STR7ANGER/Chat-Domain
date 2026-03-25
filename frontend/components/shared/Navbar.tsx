@@ -19,7 +19,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur supports-backdrop-filter:bg-background/60">
+    <header className="w-full bg-background/80 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-3">
           <img
