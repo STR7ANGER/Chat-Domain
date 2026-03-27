@@ -2,6 +2,7 @@
 
 import { SignupForm } from "@/components/signup-form"
 import { GalleryVerticalEndIcon } from "lucide-react"
+import Link from "next/link"
 
 export default function SignupPage() {
   return (
@@ -18,6 +19,12 @@ export default function SignupPage() {
         <div className="flex flex-1 items-center justify-center">
           <div className="w-full max-w-xs">
             <SignupForm />
+            <p className="mt-6 text-center text-sm text-muted-foreground">
+              Already have an account?{" "}
+              <Link href="/login" className="text-foreground hover:underline">
+                Log in
+              </Link>
+            </p>
           </div>
         </div>
       </div>

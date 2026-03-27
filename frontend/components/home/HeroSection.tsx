@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="flex items-center justify-center mt-8">
           <Button asChild size="lg" className="h-12 px-8">
             <Link
-              href="http://app.localhost:3000/app"
+              href="http://localhost:3001/login"
               target="_blank"
               rel="noreferrer"
               className="gap-2"

@@ -63,12 +63,6 @@ export function LoginForm({
             </svg>
             Login with GitHub
           </Button>
-          <FieldDescription className="text-center">
-            Don&apos;t have an account?{" "}
-            <a href="#" className="underline underline-offset-4">
-              Sign up
-            </a>
-          </FieldDescription>
         </Field>
       </FieldGroup>
     </form>

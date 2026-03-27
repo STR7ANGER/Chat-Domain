@@ -75,7 +75,12 @@ const Navbar = () => {
             </Button>
 
             <Button asChild size="sm">
-              <Link href="/app" className="gap-2">
+              <Link
+                href="http://localhost:3001/login"
+                target="_blank"
+                rel="noreferrer"
+                className="gap-2"
+              >
                 App <ArrowRightIcon className="h-4 w-4" />
               </Link>
             </Button>
